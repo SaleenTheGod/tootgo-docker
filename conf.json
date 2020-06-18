@@ -1,0 +1,26 @@
+{
+	"bots": [
+		{
+			"twitter": {
+				"token": "Twitter Access Token",
+				"tokensecret": "TWITTER_ACCESS_TOKEN",
+				"key": "Twitter API Key",
+				"keysecret": "TWITTER_API_KEY"
+			},
+			"timing": {
+				"interval": 20,
+				"allowoffset": false
+			},
+			"reddit": {
+				"subreddits": ["SUBREDDIT_TO_MIRROR"],
+				"minuprate": 0,
+				"ignoreunknown": true
+			}
+		}
+	],
+	"reddit": {
+		"username": "REDDIT_USERNAME",
+		"password": "REDDIT_PASSWORD",
+		"fixbadimages": false
+	}
+}
